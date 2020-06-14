@@ -1,0 +1,11 @@
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\bin\Debug\netcoreapp3.0\CodeShare.SlackNotify.Infrastructure.deps.json
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\bin\Debug\netcoreapp3.0\CodeShare.SlackNotify.Infrastructure.dll
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\bin\Debug\netcoreapp3.0\CodeShare.SlackNotify.Infrastructure.pdb
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\obj\Debug\netcoreapp3.0\CodeShare.SlackNotify.Infrastructure.csprojAssemblyReference.cache
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\obj\Debug\netcoreapp3.0\CodeShare.SlackNotify.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\obj\Debug\netcoreapp3.0\CodeShare.SlackNotify.Infrastructure.AssemblyInfo.cs
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\obj\Debug\netcoreapp3.0\CodeShare.SlackNotify.Infrastructure.dll
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\obj\Debug\netcoreapp3.0\CodeShare.SlackNotify.Infrastructure.pdb
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\bin\Debug\netcoreapp3.0\CodeShare.SlaclNotify.Core.dll
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\bin\Debug\netcoreapp3.0\CodeShare.SlaclNotify.Core.pdb
+C:\Users\okorosun\Documents\CodeShare\CodeShare.SlackNotify\CodeShare.SlackNotify.Infrastructure\obj\Debug\netcoreapp3.0\CodeShare.SlackNotify.Infrastructure.csproj.CopyComplete
