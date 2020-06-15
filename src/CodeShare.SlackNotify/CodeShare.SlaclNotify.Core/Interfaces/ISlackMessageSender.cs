@@ -9,5 +9,8 @@ namespace CodeShare.SlaclNotify.Core.Interfaces
     public interface ISlackMessageSender
     {
         Task<Response<string>> SendMessageAsync(SendMessageRequest model);
+        Task<Response<string>> SendMessageHttpClientAsync(SendMessageRequest model);
+
+        
     }
 }

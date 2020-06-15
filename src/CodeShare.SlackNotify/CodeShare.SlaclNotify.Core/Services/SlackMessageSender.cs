@@ -4,6 +4,7 @@ using CodeShare.SlaclNotify.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +13,7 @@ namespace CodeShare.SlaclNotify.Core.Services
     public class SlackMessageService
     {
         private readonly Database _db;
+        private readonly HttpClient _httpClient;
         private readonly ISlackMessageSender _slackmessager;
  
 
@@ -30,7 +32,8 @@ namespace CodeShare.SlaclNotify.Core.Services
             if (message == null)
                 return;
 
-            var response = await _slackmessager.SendMessageAsync(new SendMessageRequest
+            //var response = await _slackmessager.SendMessageAsync(new SendMessageRequest
+            var response = await _slackmessager.SendMessageHttpClientAsync(new SendMessageRequest
             {
                 Message = message.StackTrace,
                 Type = message.Type

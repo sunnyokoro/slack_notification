@@ -46,8 +46,12 @@ namespace CodeShare.SlackNotify
 
             //mock
             services.AddDbContext<Database>(options => options.UseInMemoryDatabase(databaseName: "Database"));
-            services.AddSingleton<IConfiguration>(Configuration);
-            services.AddSingleton<ISlackMessageSender, SlackMessageSender>();
+            services.AddSingleton<IConfiguration>(Configuration); 
+            //services.AddHttpClient<ISlackMessageSender, SlackMessageSender>();
+            services.AddHttpClient<ISlackMessageSender, SlackMessageSender>(c =>
+            {
+                c.BaseAddress = new Uri("https://hooks.slack.com");
+            });
             services.AddHangfire(c => c.UseMemoryStorage());//inmemory
 
             //swagger 
